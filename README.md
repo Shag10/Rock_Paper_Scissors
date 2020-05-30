@@ -16,5 +16,6 @@ python Server.py
 python Client.py
 # Points to Remember-
 1. When executing Server.py or Client.py through command line, make sure you are in the same directory where the files are.
-2. If two or more clients wants to play the game, they should be connected to same network.
-3. There should be atleast two players to start the game. If there are more than two players(clients), number of clients connected to server must be even to get the match.
+2. If two or more clients wants to play the game, they should be connected to same network.  
+3. Make sure(if running on other system) the system contains python version 3.x and three files Client.py, Server.py, Network.py
+4. There should be atleast two players to start the game. If there are more than two players(clients), number of clients connected to server must be even to get the match.
