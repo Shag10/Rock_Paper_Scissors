@@ -3,7 +3,7 @@ from _thread import *
 from RPSgame import Game
 import pickle
 
-host="192.168.43.157"
+host="HOST_ID" #Ex: 192.168.1.1
 port=5555
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
